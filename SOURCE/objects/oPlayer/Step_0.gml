@@ -9,9 +9,7 @@ if(spaceKey && nextArrowReady <= 0)
 {
 	var lastDirX = currentDirectionVector[0];
 	var lastDirY = currentDirectionVector[1];
-	var offsetX = sprite_width / 2;
-	var offsetY = sprite_height / 2;
-	var arrowInstance = instance_create_layer(x + offsetX + (lastDirX * 15), y + offsetY + (lastDirY * 15), "Instances", oArrow);
+	var arrowInstance = instance_create_layer(x + (lastDirX * 15), y + (lastDirY * 15), "Instances", oArrow);
 	with(arrowInstance)
 	{
 		xDir = lastDirX;

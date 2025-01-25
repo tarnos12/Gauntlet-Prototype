@@ -1,6 +1,7 @@
 moveSpeed = 2;
 xSpeed = 0;
 ySpeed = 0;
+health_points = 1;
 
 enum moveDirection
 {
