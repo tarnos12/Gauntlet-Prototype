@@ -1,0 +1,1 @@
+keyColor = keyColors.blue;

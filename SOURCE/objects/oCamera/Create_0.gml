@@ -1,0 +1,1 @@
+cameraSpeed = 0.1;
